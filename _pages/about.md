@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Junteng Liu (刘俊腾)"
+title: "Junteng Liu"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a first-year Ph.D. candidate at the [HKUST NLP Group](https://github.com/HKUST-NLP), Hong Kong University of Science and Technology (HKUST), supervised by Professor Junxian He. My research focuses on natural language processing and machine learning.
+I am a first-year Ph.D. candidate at the HKUST NLP Group, Hong Kong University of Science and Technology (HKUST), supervised by Professor Junxian He. My research focuses on natural language processing and machine learning.
 
 I graduated from Shanghai Jiao Tong University (SJTU) in June 2024 with a B.Eng., and Professor Junxian He also advised me during my undergraduate studies at SJTU. During my undergraduate studies, I was awarded the Zhiyuan Honor Scholarship.
 
@@ -38,7 +38,7 @@ Research Experience
 
 Publications
 ======
-\* Full first-author papers are marked with an asterisk (*), and my name is in **bold**.
+\* First-author papers are marked with an asterisk (*), and my name is in **bold**.
 
 ### 2025
 
