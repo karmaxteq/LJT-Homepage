@@ -36,8 +36,6 @@ jobs:
           cache-version: 0
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6.0.0
-        with:
-          enablement: true
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
