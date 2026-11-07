@@ -15,7 +15,9 @@ My research focuses on natural language processing and machine learning. My curr
 - Hallucination in Vision-Language Models (VLM)
 - LLM Truthfulness and Interpretability
 
-You can find my publications below and on the [Publications](/publications/) page.
+{% include base_path %}
+
+You can find my publications below and on the [Publications]({{ base_path }}/publications/)) page.
 
 Experience
 ======
