@@ -43,6 +43,10 @@ jobs:
       - name: Minify JS files
         run: |
           uglifyjs assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js assets/js/theme.js -c -m -o assets/js/main.min.js
+      # Tries to ensure the GitHub Pages site exists for this repository.
+      # If Pages is not enabled yet and the workflow token may not create it,
+      # the failure is non-fatal; enable Pages once via
+      # Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v6.0.0
@@ -56,7 +60,6 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v5.0.0
-        continue-on-error: true
 
   # Deployment job
   deploy:
