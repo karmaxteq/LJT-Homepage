@@ -27,7 +27,7 @@ author:
   name             : "Junteng Liu"
   pronouns         : # example: "she/her"  
   bio              : "First-year PhD candidate at the HKUST NLP Group"
-  location         : "Earth"
+  location         : # Not provided in memory - leave blank so it does not appear
   employer         : "Hong Kong University of Science and Technology"
   uri              : # URL
   email            : "jliugi@connect.ust.hk" 
